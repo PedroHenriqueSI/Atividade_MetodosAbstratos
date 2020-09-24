@@ -8,6 +8,9 @@ namespace AbstractMethods.Atv1.Entities
     {
         public double HealthExpenditures { get; set; }
 
+        public Individual()
+        {
+        }
         public Individual(string name, double anualIncome, double healthExpenditures) : base(name, anualIncome)
         {
             HealthExpenditures = healthExpenditures;
